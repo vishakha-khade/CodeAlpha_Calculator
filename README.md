@@ -1,16 +1,16 @@
-# CodeAlpha Calculator
+# Calculator
 
-A modern calculator built as part of the CodeAlpha Frontend Development Internship.
+## About the Project
+
+Calculator is a web-based application developed as part of my CodeAlpha internship tasks. It provides a simple interface for performing basic mathematical calculations.
 
 ## Features
 
-* Addition, subtraction, multiplication, and division
-* Modulo operation
-* Clear and delete buttons
-* Keyboard support
-* Error handling
+* Basic arithmetic operations
+* Interactive calculator buttons
+* Clear input functionality
+* Simple and user-friendly interface
 * Responsive design
-* Modern dark UI with neon green accents
 
 ## Technologies Used
 
@@ -18,12 +18,14 @@ A modern calculator built as part of the CodeAlpha Frontend Development Internsh
 * CSS3
 * JavaScript
 
-## How to Run
+## Live Demo
 
-1. Download or clone this repository.
-2. Open `index.html` in your browser.
-3. Start calculating!
+[View Live Project](https://codealphacalculator-lake.vercel.app/)
+
+## What I Learned
+
+This project helped me practise JavaScript functions, event handling, mathematical operations, and DOM manipulation.
 
 ## Internship
 
-CodeAlpha Frontend Development Internship — October 2026
+Developed as part of the CodeAlpha internship program.
