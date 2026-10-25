@@ -16,11 +16,11 @@ buttons.forEach(function(button) {
                 display.value = calculate(display.value);
             } 
             catch {
-                display.value = "Error";
+                display.value = "Invalid";
             }
         } 
         else {
-            if (display.value === "Error") {
+            if (display.value === "Invalid") {
                 display.value = "";
             }
 
@@ -50,7 +50,7 @@ document.addEventListener("keydown", function(event) {
     const key = event.key;
 
     if (key >= "0" && key <= "9" || "+-*/.%()".includes(key)) {
-        if (display.value === "Error") {
+        if (display.value === "Invalid") {
             display.value = "";
         }
 
@@ -63,7 +63,7 @@ document.addEventListener("keydown", function(event) {
         try {
             display.value = calculate(display.value);
         } catch {
-            display.value = "Error";
+            display.value = "Invalid";
         }
     }
 
@@ -72,6 +72,6 @@ document.addEventListener("keydown", function(event) {
     }
 
     else if (key === "Escape") {
-        display.value = "";
+        display.value = "Invalid";
     }
 });
